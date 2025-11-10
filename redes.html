@@ -1,0 +1,101 @@
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto medicina</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+
+</head>
+<body>
+  
+    <header>
+      <nav class="navbar">
+        <div class="brand">
+          <h2>UNI<span>CABA</span></h2>
+        </div>
+        <ul class="menu">
+          <li><a href="proyecto2.html"  class="active">Volver</a></li>
+          
+        </ul>
+      </nav>
+    </header>
+   <br> 
+  
+    <div class="about">
+      <img src="imagenes/cens1.jpg" width="200 px" height="600 px" alt="CENS48">
+      <div class="about-info">
+        <h2>Centro Educativo de Nivel Secundario Nro 48</h2>
+        <div class="divider"></div>
+        <div class="mini">
+            <a download href="https://view.genially.com/68d17d096dc3f2ab69ccb8a8/horizontal-infographic-diagrams-marco-politico-pedagogico-de-la-educacion-secundaria-caba"><img src="imagenes/RED%20EJES.png" width="20 px" height="50 px" alt="Caratula"></a>
+            <a download href="Red%20de%20nodos-PEII%20(1).pdf"><img src="imagENES/RED%20COLABORATIVA.png" width="20 px" height="50 px" alt="Indice"></a>
+            <a download href="Anexo%20Observaciones.pdf"><img src="imageNES/ANEXOS.png" width="20 px" height="50 px" alt="DETALLE"></a>
+          
+            
+        </div>
+        
+      </div>
+    </div>
+    
+    <div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <img src="imagenes/cens1.jpg" alt="Imagen de ejemplo" class="modal-image">
+        <img src="imagenes/cens2.jpg" alt="Imagen de ejemplo" class="modal-image">
+        <img src="imagenes/cens3.jpg" alt="Imagen de ejemplo" class="modal-image">
+        <img src="imagenes/cens4.jpg" alt="Imagen de ejemplo" class="modal-image">
+        <img src="imagenes/cens5.jpg" alt="Imagen de ejemplo" class="modal-image">
+        <img src="imagenes/cens6.jpg" alt="Imagen de ejemplo" class="modal-image">
+         <img src="imagenes/cens7.jpg" alt="Imagen de ejemplo" class="modal-image">
+        <img src="imagenes/cens8.jpg" alt="Imagen de ejemplo" class="modal-image">
+         <img src="imagenes/cens9.jpg" alt="Imagen de ejemplo" class="modal-image">
+  
+        
+        
+        
+    </div>
+</div>
+
+<script>
+    // Obtener elementos
+    const modal = document.getElementById("myModal");
+    const openModalLink = document.getElementById("openModalLink");
+    const closeModal = document.getElementsByClassName("close")[0];
+
+    // Abrir el modal
+    openModalLink.onclick = function(event) {
+        event.preventDefault();
+        modal.style.display = "block";
+    }
+
+    // Cerrar el modal cuando se hace clic en "x"
+    closeModal.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    // Cerrar el modal al hacer clic fuera del contenido
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+    
+   
+    
+    <br>
+    
+   
+    <footer class="footer"> 
+      <div class="footer-content">
+        <h2>Diego Antony</h2>
+        <h5>Universidad de la Ciudad</h5>
+      </div>
+      <div class="sotial-networks">
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-twitter-square"></i>
+      </div>
+    </footer>
+  </body>
